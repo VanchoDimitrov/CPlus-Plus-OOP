@@ -1,23 +1,28 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 class Person {
-public:
+private:
 	int ID;
 	string Name;
 	string LastName;
+
+public:
+	void Save(int id, string name, string lastName) {
+		this->ID = id;
+		this->Name = name;
+		this->LastName = lastName;
+
+		cout << "Person info saved within database." << endl;
+		cout << Name + " " + " " + LastName << endl;
+	}
 };
 
 int main()
 {
 	Person person;
-	person.ID = 1;
-	person.Name = "John";
-	person.LastName = "Doe";
-
-	cout << "ID " << person.ID << " Name "
-		<< person.Name << " Last Name " << person.LastName << endl;
+	person.Save(1, "John", "Doe");
 
 	cin.get();
 }

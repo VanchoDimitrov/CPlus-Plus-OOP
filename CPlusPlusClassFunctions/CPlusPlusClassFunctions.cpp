@@ -7,16 +7,6 @@ public: // access modifiers could be also private (no access outside the class),
 	string Name;
 	string LastName;
 
-	// constructor
-	Person(string what, int age)
-	{
-		cout << what << " " << age << endl;
-	}
-
-	Person() {
-		cout << "Let the party begin!" << endl;
-	}
-
 	// This method/function with parameters is contained within the the class itself
 	void SaveInformation(int ID, string Name, string LastName) {
 		this->ID = ID;
@@ -37,6 +27,7 @@ public:
 	string LastName;
 	void SaveInformation(int ID, string Name, string LastName);
 };
+
 // outside the class. No such equivalent in c#
 void Employee::SaveInformation(int ID, string Name, string LastName) {
 	this->ID = ID;
@@ -51,7 +42,7 @@ void Employee::SaveInformation(int ID, string Name, string LastName) {
 
 int main()
 {
-	Person person("Age: ", 30); // also pass age to the constructor
+	Person person;
 	person.SaveInformation(1, "John", "Doe");
 
 	cout << endl;

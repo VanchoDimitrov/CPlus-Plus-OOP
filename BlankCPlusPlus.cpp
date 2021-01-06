@@ -1,20 +1,29 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 class Person {
 public:
-	int ID;
-	string Name;
-	string LastName;
+	//Constructors
+	Person() {
+		cout << "Let the party begin." << endl;
+	}
+
+	Person(string Name, string LastName) {
+		cout << Name + " " + LastName << endl;
+	}
+
+	// Destruct a Constructor
+	~Person() {
+		cout << "Destructing a constructor" << endl;
+	};
 };
 
 int main()
 {
 	Person person;
-	person.ID = 1;
-	person.Name = "John";
-	person.LastName = "Doe";
+
+	Person person1("John", "Doe");
 
 	cin.get();
 }
