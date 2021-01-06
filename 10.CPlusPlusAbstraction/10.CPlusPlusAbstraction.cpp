@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Abstraction is a process of hiding someting within the class
+// Abstraction is a process of hiding something within the class
 class Person
 {
 private:
