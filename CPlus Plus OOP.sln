@@ -7,9 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.Blank-CPlusPlus", "Blank
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.CPlusPlus-Handling-Exceptions", "09.CPlusPlus-Handling-Exceptions\09.CPlusPlus-Handling-Exceptions.vcxproj", "{F002500B-D8EA-4B4E-A571-0FAD8552469F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.CPluPlus-Polymorphism", "CPluPlusPolymorphism\CPluPlusPolymorphism.vcxproj", "{F4711F0D-5BEB-49A9-A949-B6066DFB441B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.CPluPlus-Polymorphism", "08.CPluPlusPolymorphism\CPluPlusPolymorphism.vcxproj", "{F4711F0D-5BEB-49A9-A949-B6066DFB441B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.CPlusPlus-Classes", "CPlusPlusClasses\CPlusPlusClasses.vcxproj", "{FC95FB3A-DA9B-45D8-B95C-655E18A2434A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.CPlusPlus-Classes", "02.CPlusPlusClasses\CPlusPlusClasses.vcxproj", "{FC95FB3A-DA9B-45D8-B95C-655E18A2434A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.CPlusPlus-Class-Functions", "CPlusPlusClassFunctions\CPlusPlusClassFunctions.vcxproj", "{56E4BFE3-2649-4CF9-BA3A-8646721F71FC}"
 EndProject
