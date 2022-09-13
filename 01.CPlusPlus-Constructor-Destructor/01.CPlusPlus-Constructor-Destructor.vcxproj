@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01.1.CPlusPlus-Constructor-Destructor.cpp" />
+    <ClCompile Include="01.CPlusPlus-Constructor-Destructor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
